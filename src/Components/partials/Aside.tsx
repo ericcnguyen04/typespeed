@@ -1,4 +1,5 @@
 import '../../App.css';
+import Tabs from './Tabs'
 
 export default function Aside() {
     return (
@@ -8,6 +9,9 @@ export default function Aside() {
                 <p>with a spice of zoomies</p>
             </div>
             
+            <Tabs 
+                
+            />
         </div>
     )
 }
