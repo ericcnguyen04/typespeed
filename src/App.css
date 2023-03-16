@@ -3,7 +3,9 @@
   background-color: #282c34;
   min-height: 100vh;
   width: 80%;
-  float: right
+  float: right;
+
+  /* border: 2px solid blue */
 }
 
 .aside {
@@ -30,10 +32,25 @@
 .nav {
   background-color: #f15b5b;
   height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.display {
+  /* border: 2px solid rgb(174, 174, 189); */
+
+  margin-top: 80px;
+  height: 80vh;
+  width: 80vw;
+
 }
 
 .type {
+  /* border: 2px solid blue; */
   margin: auto;
-  background-color: white;
-  width: 70%
+  
+  background-color: rgb(165, 165, 165);
+  width: 70%;
+  height: 50%;
+  border-radius: 25px;
 }
