@@ -1,7 +1,7 @@
 export default function Aside() {
     return (
-        <>
-        I am aside
-        </>
+        <div className="aside">
+            I am aside
+        </div>
     )
 }
