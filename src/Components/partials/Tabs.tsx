@@ -1,7 +1,7 @@
 export default function Tabs() {
     return (
         <div className="tabs">
-            <h2>eys</h2>
+            <h2>aaj</h2>
         </div>
     )
 }

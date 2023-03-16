@@ -12,6 +12,9 @@ export default function Aside() {
             <Tabs 
                 
             />
+            <Tabs 
+                
+            />
         </div>
     )
 }
