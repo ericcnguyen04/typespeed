@@ -1,7 +1,7 @@
 export default function Nav() {
     return (
-        <div>
-        I am nav
+        <div className="nav">
+            radical dude
         </div>
     )
 }

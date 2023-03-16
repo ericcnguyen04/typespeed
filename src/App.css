@@ -2,6 +2,8 @@
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
+  width: 80%;
+  float: right
 }
 
 .aside {
@@ -23,4 +25,15 @@
 .tabs {
   width: 100%;
   background-color: green;
+}
+
+.nav {
+  background-color: #f15b5b;
+  height: 10%;
+}
+
+.type {
+  margin: auto;
+  background-color: white;
+  width: 70%
 }
