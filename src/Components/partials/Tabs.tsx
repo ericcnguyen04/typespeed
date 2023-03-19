@@ -1,7 +1,7 @@
-export default function Tabs() {
+export default function Tabs(props:any) {
     return (
         <div className="tabs">
-            <h2>aaj</h2>
+            <h2>{props.name}</h2>
         </div>
     )
 }

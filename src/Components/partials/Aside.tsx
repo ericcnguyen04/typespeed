@@ -10,10 +10,10 @@ export default function Aside() {
             </div>
             
             <Tabs 
-                
+                name={'name'}
             />
             <Tabs 
-                
+                name={'quakc'}
             />
         </div>
     )

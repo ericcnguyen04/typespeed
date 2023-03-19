@@ -4,7 +4,6 @@ import "../../App.css"
 import axios from 'axios'
 
 import {FC, useState, useEffect} from "react";
-import { useNavigate, NavigateFunction, useParams } from "react-router-dom"
 
 
 
@@ -17,12 +16,11 @@ const Type=()=> {
     const [suggestionUrl,setSuggestionUrl]=useState<string>('')
 
 
-    let navigate:NavigateFunction = useNavigate()
 
     const handleNewTest =()=>{
         // resetting the url based on suggested from test results then refreshes
-        navigate(suggestionUrl) 
-        navigate(0)
+        // navigate(suggestionUrl) 
+        // navigate(0)
     }
     
         return(
