@@ -1,11 +1,9 @@
 import "../../App.css"
 
-export default function Type() {
-    return(
-        <div className="display">
-            <div className="type">
-            heyoooisd
-            </div>
-        </div>
-    )
+// take api's
+import axios from 'axios'
+
+const Test=()=> {
+    const [words, setWords] = useState<string>('')
+
 }
