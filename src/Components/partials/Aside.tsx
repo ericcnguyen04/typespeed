@@ -6,7 +6,7 @@ export default function Aside() {
         <div className="aside">
             <div>
                 <h1>TypeSpeed</h1>
-                <p>with a spice of zoomies</p>
+                <p>with a spice of zoomiess</p>
             </div>
             
             <Tabs 
