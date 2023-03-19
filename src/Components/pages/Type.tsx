@@ -4,7 +4,7 @@ export default function Type() {
     return(
         <div className="display">
             <div className="type">
-            heyooois
+            heyoooisd
             </div>
         </div>
     )
