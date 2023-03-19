@@ -10,10 +10,12 @@ export default function Aside() {
             </div>
             
             <Tabs 
-                name={'name'}
-            />
+                link={'/'}
+                name={'Type'}
+                />
             <Tabs 
-                name={'quakc'}
+                link={'/profile'}
+                name={'Profile'}
             />
         </div>
     )
