@@ -5,7 +5,7 @@ export default function Nav() {
                 <h3>Time</h3>
             </div>
             <div>
-                <h3>WPMd</h3>
+                <h3>WPMdd</h3>
             </div>
         </div>
     )
