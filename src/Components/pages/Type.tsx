@@ -15,7 +15,7 @@ const Type=()=> {
     const [wpm,setWpm]=useState<number>(0)
     const [suggestionUrl,setSuggestionUrl]=useState<string>('')
 
-
+    const script = "heyoois"
 
     const handleNewTest =()=>{
         // resetting the url based on suggested from test results then refreshes
@@ -25,9 +25,9 @@ const Type=()=> {
     
         return(
             <div className="display">
-                <div className="type">
-                heyooois
-                </div>
+                <input className="type" placeholder={script}>
+                
+                </input>
             </div>
         )
 }
