@@ -10,15 +10,14 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Aside />
+        <Nav />
+        
         <Routes>
-            <Aside />
-            <Nav />
-
-            <Route 
-            path="/"
-            element={<Type />}
-            />
-
+          <Route 
+          path="/"
+          element={<Type />}
+          />
         </Routes>
       </div>
     </Router>
