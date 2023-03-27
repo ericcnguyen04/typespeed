@@ -4,21 +4,23 @@ import Aside from './Components/partials/Aside'
 import Nav from './Components/partials/Nav'
 import Type from './Components/pages/Type'
 
-import { Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route></Route>
+      <div className="App">
+        <Routes>
+            <Aside />
+            <Nav />
 
-        <div className="App">
-          <Aside />
-          <Nav />
+            <Route 
+            path="/"
+            element={<Type />}
+            />
 
-          <Type />
-        </div>
-      </Routes>
+        </Routes>
+      </div>
     </Router>
   );
 }
